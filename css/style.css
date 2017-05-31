@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Yrsa');
+
+body	{
+	
+	font-family: 'Raleway', sans-serif;
+	background-image: url('background.jpg');
+	}
+	
+p	{
+	font-family: 'Yrsa', serif;
+	font-size: 19px;
+	max-width: 900px;
+	}
+	
+h2	{
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #4157b3;
+	padding-bottom: -20px;
+	border-color: #cccccc;
+	border-style: none none solid none;
+	border-width: 1.5px; 
+	margin: 0 0 15px 0;
+	}
+	
+h3	{
+	font-weight: 300;
+	font-size: 1em;
+	padding: 0 0 20px 0;
+}
+
+h4	{
+	color: #e63f3f;
+	margin: 0 0 2px 0;
+}
+
+h5{
+	color: #e63f3f;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+	}
+	
+.all_nav	{
+	display: block;
+	margin: 2% 0 0 2%;
+	position: fixed;
+	float: left;
+	height: 100%;
+    overflow: auto;
+    width: 10%;
+	
+	}
+	
+#logo	{
+	padding-bottom: 6px;
+	}
+	
+#logo img	{
+	width: 90px;
+	}
+	
+ul	{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+    overflow: auto;
+	}
+
+a 	{
+	text-decoration: none;
+	display: block;
+	}
+	
+.nav_links a:link, .nav_links a:visited, .nav_links a:active {
+	color: #e63f3f;
+	}
+
+
+.nav_links a:hover	{
+	color: black;
+	}
+	
+.nav_links li {
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	}
+	
+.main_container	{
+	display: block;
+	float: right;
+	width: 80%;
+	padding: 2%;
+	}
+	
+.main_container	img{
+	width: 100%;
+	}
+	
+.homepage img{
+	width: 24%;
+	}
+	
+.typography	img{
+	padding: 0px 0 0px 0;
+	}
+
+.photography img	{
+	width: 49%;
+	margin-top: 0px;
+	
+	}
+
+.all_photos	img{
+	width: 32%;
+	}
+
+.all_colors	img{
+	width: 24%;
+	}
+
+.all_colors {
+	margin: 0 0 20px 0;
+	}
+	
+.designers p{
+	max-width: 1000px;
+	margin: 0 0 10px 0;
+	}
+	
+.designers h4{
+	
+	}
+	
+.designer img{
+	width: 350px;
+	float: left;
+	padding-right: 20px;
+	
+	}
+	
+.designer{
+	display: block;
+    margin-bottom: 50px;
+    overflow: auto;
+	
+}
+
+
+
+.photography h2{
+	
+	cursor: pointer;
+	}
+
+.color h2{
+	cursor: pointer;
+	}
+
+.typography h2{
+	cursor: pointer;
+	}
+	
+.history h2{
+	cursor: pointer;
+	}
+	
+.designers h2{
+	cursor: pointer;
+	}
+
+h2:hover {
+	color: #e63f3f; 
+	}
+
+
+.all_history img{
+	width: 45%;
+	float: left;
+	padding: 0 20px 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

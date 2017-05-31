@@ -33,6 +33,22 @@ $(document).ready(function(){
 		$('#big-photo3 img').attr('src', path);		
 	});
 	
+	$('.photo-thumbnails4 .thumbnail4').click(function() {
+		$('.photo-thumbnails4 .thumbnail4').removeClass('current4');
+		$(this).addClass('current4');
+		
+		var path = $(this).find('img').attr('src');
+		$('#big-photo4 img').attr('src', path);		
+	});
+	
+	$('.photo-thumbnails5 .thumbnail5').click(function() {
+		$('.photo-thumbnails5 .thumbnail5').removeClass('current5');
+		$(this).addClass('current5');
+		
+		var path = $(this).find('img').attr('src');
+		$('#big-photo5 img').attr('src', path);		
+	});
+	
 	
 	$('#hamburger').click(function(){
 			       $('.nav_links').slideToggle();

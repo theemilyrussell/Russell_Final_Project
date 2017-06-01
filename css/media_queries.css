@@ -232,6 +232,10 @@ a	{
 	display: inline-block;
 	}
 
+#homepage{
+	display: none;
+}
+
 }
 
 /*tablet*/
@@ -432,6 +436,10 @@ a	{
 .thumbnail-inner5 {
 	display: inline-block;
 	}
+	
+#homepage{
+	display: none;
+}
 
 }
 
@@ -450,5 +458,8 @@ a	{
 	display: block !important;
 }
 
+#homepage_mobile{
+	display: none;
+}
 
 }

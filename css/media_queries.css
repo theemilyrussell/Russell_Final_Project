@@ -97,7 +97,12 @@ a	{
 
 .all_history img{
 	width: 100%;
-	margin: 0 20px 0 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.all_history{
+	padding-right: 0;
 }
 	
 /* 	FOR ALBUMS PAGE */
@@ -302,7 +307,14 @@ a	{
 	}
 .all_history img{
 	width: 100%;
-	margin: 0 20px 0 0;
+	margin: 0;
+	float: none;
+	padding: 0 0 10px 0;
+}
+
+.all_history{
+	padding-right: 0;
+	float: none;
 }
 
 /* 	FOR ALBUMS PAGE */
